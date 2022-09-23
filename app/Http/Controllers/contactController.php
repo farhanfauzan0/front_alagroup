@@ -3,11 +3,15 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\M_Profil;
 
 class contactController extends Controller
 {
     function index()
     {
-        return view('contact.index');
+        $profile = M_Profil::select('*')->where('type', '=', 'ala')->get();
+
+        return view('contact.index', ['profile' => $profile[0]]);
+        return view('footer.index', ['profile' => $profile[0]]);
     }
 }

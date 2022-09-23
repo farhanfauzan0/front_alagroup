@@ -12,10 +12,12 @@
                 <!-- Logo -->
                 <div class="logo">
                     <a class="logo-wrap" href="{{ route('home.index') }}">
-                        <img class="logo-img logo-img-main" src="{{ asset('admin/HTML/img/logo.png') }}"
-                            alt="Asentus Logo">
-                        <img class="logo-img logo-img-active" src="{{ asset('admin/HTML/img/logo-dark.png') }}"
-                            alt="Asentus Logo">
+                        <img class="logo-img logo-img-main" style="margin-top: -20%;"
+                            src="{{ url('http://10.100.20.14/ala-backend/public/uploads/2022/09/21/ALA/produk/logoonly~220921034543.png') }}"
+                            alt="Logo">
+                        <img class="logo-img logo-img-active" style="margin-top: -20%;"
+                            src="{{ url('http://10.100.20.14/ala-backend/public/uploads/2022/09/21/ALA/produk/logoonly~220921034543.png') }}"
+                            alt="Logo">
                     </a>
                 </div>
                 <!-- End Logo -->

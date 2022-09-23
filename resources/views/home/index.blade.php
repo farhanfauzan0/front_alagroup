@@ -15,11 +15,9 @@
                 <div class="container">
                     <div class="carousel-centered">
                         <div class="margin-b-40">
-                            <h1 class="carousel-title"><br>Halaman Utama</h1>
-                            <p>Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua <br /> enim minim
-                                estudiat veniam siad venumus dolore</p>
+                            <h1 class="carousel-title"><br>{{ $profile->nama }}</h1>
+                            <p>{{ $profile->desc }}</p>
                         </div>
-                        {{-- <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Explore</a> --}}
                     </div>
                 </div>
             </div>
@@ -29,109 +27,62 @@
         <div class="row margin-b-40">
             <div class="col-sm-6">
                 <h2>Produk</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna
-                    aliqua enim minim veniam exercitation</p>
             </div>
         </div>
         <!--// end row -->
 
-        <div class="row margin-b-50">
-            <!-- Our Exceptional Solutions -->
-            <div class="col-sm-4 sm-margin-b-50">
-                <div class="margin-b-20">
-                    <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                        <img class="img-responsive" src="{{ asset('admin/HTML/img/970x647/01.jpg') }}"
-                            alt="Our Exceptional Solutions Image">
+        @foreach ($product as $value)
+            <div class="row margin-b-50">
+                <!-- Our Exceptional Solutions -->
+                <div class="col-sm-4 sm-margin-b-50">
+                    <div class="margin-b-20">
+                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                            <img class="img-responsive"
+                                src="{{ url('http://10.100.20.14/ala-backend/public/uploads/2022/09/19/ALA/produk/WhatsApp%20Image%202022-09-15%20at%2014.14.16~220919102253.jpeg') }}"
+                                alt="Our Exceptional Solutions Image">
+                        </div>
                     </div>
+                    <h3><a href="#">{{ $value->nama }}</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor
+                            magna ut
+                            consequat siad esqudiat dolor</p>
                 </div>
-                <h3><a href="#">Triangle Roof</a> <span class="text-uppercase margin-l-20">Management</span></h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut
-                    consequat siad esqudiat dolor</p>
-                <a class="link" href="#">Read More</a>
-            </div>
-            <!-- End Our Exceptional Solutions -->
+                <!-- End Our Exceptional Solutions -->
 
-            <!-- Our Exceptional Solutions -->
-            <div class="col-sm-4 sm-margin-b-50">
-                <div class="margin-b-20">
-                    <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                        <img class="img-responsive" src="{{ asset('admin/HTML/img/970x647/02.jpg') }}"
-                            alt="Our Exceptional Solutions Image">
+                <!-- Our Exceptional Solutions -->
+                <div class="col-sm-4 sm-margin-b-50">
+                    <div class="margin-b-20">
+                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                            <img class="img-responsive"
+                                src="{{ url('http://10.100.20.14/ala-backend/public/uploads/2022/09/21/ALA/produk/logoonly~220921034543.png') }}">
+                        </div>
                     </div>
+                    <h4><a href="#">{{ $value->nama }}</a> <span class="text-uppercase margin-l-20">Design</span>
+                    </h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor
+                        magna ut
+                        consequat siad esqudiat dolor</p>
+                    {{-- <a class="link" href="#">Read More</a> --}}
                 </div>
-                <h4><a href="#">Curved Corners</a> <span class="text-uppercase margin-l-20">Developmeny</span>
-                </h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut
-                    consequat siad esqudiat dolor</p>
-                <a class="link" href="#">Read More</a>
-            </div>
-            <!-- End Our Exceptional Solutions -->
+                <!-- End Our Exceptional Solutions -->
 
-            <!-- Our Exceptional Solutions -->
-            <div class="col-sm-4 sm-margin-b-50">
-                <div class="margin-b-20">
-                    <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                        <img class="img-responsive" src="{{ asset('admin/HTML/img/970x647/03.jpg') }}"
-                            alt="Our Exceptional Solutions Image">
+                <!-- Our Exceptional Solutions -->
+                <div class="col-sm-4 sm-margin-b-50">
+                    <div class="margin-b-20">
+                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                            <img class="img-responsive"
+                                src="{{ url('http://10.100.20.14/ala-backend/public/uploads/2022/09/19/ALA/produk/WhatsApp%20Image%202022-09-15%20at%2014.14.16~220919102253.jpeg') }}"
+                                alt="Our Exceptional Solutions Image">
+                        </div>
                     </div>
+                    <h3><a href="#">{{ $value->nama }}</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor
+                            magna ut
+                            consequat siad esqudiat dolor</p>
                 </div>
-                <h4><a href="#">Bird On Green</a> <span class="text-uppercase margin-l-20">Design</span></h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut
-                    consequat siad esqudiat dolor</p>
-                <a class="link" href="#">Read More</a>
+                <!-- End Our Exceptional Solutions -->
             </div>
-            <!-- End Our Exceptional Solutions -->
-        </div>
-        <!--// end row -->
-
-        <div class="row">
-            <!-- Our Exceptional Solutions -->
-            <div class="col-sm-4 sm-margin-b-50">
-                <div class="margin-b-20">
-                    <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                        <img class="img-responsive" src="{{ asset('admin/HTML/img/970x647/01.jpg') }}"
-                            alt="Our Exceptional Solutions Image">
-                    </div>
-                </div>
-                <h4><a href="#">Triangle Roof</a> <span class="text-uppercase margin-l-20">Management</span></h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut
-                    consequat siad esqudiat dolor</p>
-                <a class="link" href="#">Read More</a>
-            </div>
-            <!-- End Our Exceptional Solutions -->
-
-            <!-- Our Exceptional Solutions -->
-            <div class="col-sm-4 sm-margin-b-50">
-                <div class="margin-b-20">
-                    <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                        <img class="img-responsive" src="{{ asset('admin/HTML/img/970x647/02.jpg') }}"
-                            alt="Our Exceptional Solutions Image">
-                    </div>
-                </div>
-                <h4><a href="#">Curved Corners</a> <span class="text-uppercase margin-l-20">Developmeny</span>
-                </h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut
-                    consequat siad esqudiat dolor</p>
-                <a class="link" href="#">Read More</a>
-            </div>
-            <!-- End Our Exceptional Solutions -->
-
-            <!-- Our Exceptional Solutions -->
-            <div class="col-sm-4 sm-margin-b-50">
-                <div class="margin-b-20">
-                    <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                        <img class="img-responsive" src="{{ asset('admin/HTML/img/970x647/03.jpg') }}"
-                            alt="Our Exceptional Solutions Image">
-                    </div>
-                </div>
-                <h4><a href="#">Bird On Green</a> <span class="text-uppercase margin-l-20">Design</span></h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut
-                    consequat siad esqudiat dolor</p>
-                <a class="link" href="#">Read More</a>
-            </div>
-            <!-- End Our Exceptional Solutions -->
-        </div>
-        <!--// end row -->
+        @endforeach
     </div>
 </body>
 

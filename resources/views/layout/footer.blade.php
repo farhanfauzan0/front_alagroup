@@ -7,9 +7,9 @@
                     <!-- List -->
                     <ul class="list-unstyled footer-list">
                         <li class="footer-list-item">Hubungi Kami</li>
-                        <li class="footer-list-item">Whatsapp : 081212345678</li>
-                        <li class="footer-list-item">Email : asd123@gmail.com</li>
-                        <li class="footer-list-item">Alamat : Bekasi</li>
+                        <li class="footer-list-item">Whatsapp : {{ $profile->no_telp }}</li>
+                        <li class="footer-list-item">Email : {{ $profile->email }}</li>
+                        <li class="footer-list-item">Alamat : {{ $profile->alamat }}</li>
                     </ul>
                     <!-- End List -->
                 </div>
@@ -23,7 +23,9 @@
     <div class="content container">
         <div class="row">
             <div class="col-xs-6">
-                <img class="footer-logo" src="{{ asset('admin/HTML/img/logo.png') }}" alt="Asentus Logo">
+                <img class="footer-logo"
+                    src="{{ url('http://10.100.20.14/ala-backend/public/uploads/2022/09/21/ALA/produk/logoonly~220921034543.png') }}"
+                    alt="Logo">
             </div>
         </div>
         <!--// end row -->

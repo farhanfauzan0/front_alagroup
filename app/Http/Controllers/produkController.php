@@ -11,7 +11,7 @@ class produkController extends Controller
     function index()
     {
         $profile = M_Profil::select('*')->where('type', '=', 'ala')->get();
-        $product = M_Produk::select('*')->get();
+        $product = M_Produk::select('*')->where('type', '=', 'ala')->get();
 
         return view('produk.index', ['profile' => $profile[0], 'product' => $product]);
         return view('footer.index', ['profile' => $profile[0]]);

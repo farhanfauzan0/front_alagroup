@@ -24,7 +24,7 @@
         <div class="row">
             <div class="col-xs-6">
                 <img class="footer-logo"
-                    src="{{ url('http://10.100.20.14/ala-backend/public/uploads/2022/09/21/ALA/produk/logoonly~220921034543.png') }}"
+                    src="{{ url('https://backend.ala-group.id/ala-backend/public/uploads/2022/09/21/ALA/produk/logoonly~220921034543.png') }}"
                     alt="Logo">
             </div>
         </div>

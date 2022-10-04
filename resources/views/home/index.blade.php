@@ -38,7 +38,7 @@
                     <div class="margin-b-20">
                         <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
                             <img class="img-responsive"
-                                src="{{ url('http://10.100.20.14/ala-backend/public/uploads/2022/09/19/ALA/produk/WhatsApp%20Image%202022-09-15%20at%2014.14.16~220919102253.jpeg') }}"
+                                src="{{ url('https://backend.ala-group.id/ala-backend/public/uploads/2022/09/19/ALA/produk/WhatsApp%20Image%202022-09-15%20at%2014.14.16~220919102253.jpeg') }}"
                                 alt="Our Exceptional Solutions Image">
                         </div>
                     </div>
@@ -54,7 +54,7 @@
                     <div class="margin-b-20">
                         <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
                             <img class="img-responsive"
-                                src="{{ url('http://10.100.20.14/ala-backend/public/uploads/2022/09/21/ALA/produk/logoonly~220921034543.png') }}">
+                                src="{{ url('https://backend.ala-group.id/ala-backend/public/uploads/2022/09/21/ALA/produk/logoonly~220921034543.png') }}">
                         </div>
                     </div>
                     <h4><a href="#">{{ $value->nama }}</a> <span class="text-uppercase margin-l-20">Design</span>
@@ -71,7 +71,7 @@
                     <div class="margin-b-20">
                         <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
                             <img class="img-responsive"
-                                src="{{ url('http://10.100.20.14/ala-backend/public/uploads/2022/09/19/ALA/produk/WhatsApp%20Image%202022-09-15%20at%2014.14.16~220919102253.jpeg') }}"
+                                src="{{ url('https://backend.ala-group.id/ala-backend/public/uploads/2022/09/19/ALA/produk/WhatsApp%20Image%202022-09-15%20at%2014.14.16~220919102253.jpeg') }}"
                                 alt="Our Exceptional Solutions Image">
                         </div>
                     </div>

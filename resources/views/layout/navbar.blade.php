@@ -13,11 +13,11 @@
                 <div class="logo">
                     <a class="logo-wrap" href="{{ route('home.index') }}">
                         <img class="logo-img logo-img-main" style="margin-top: -20%;"
-                            src="{{ url('https://backend.ala-group.id/ala-backend/public/uploads/2022/09/21/ALA/produk/logoonly~220921034543.png') }}"
-                            alt="Logo">
+                            src="{{ url('https://backend.ala-group.id/assets/images/logoonly.png') }}" alt="Logo"
+                            style="height: auto; width: auto; max-width: 300px; max-height: 300px;">
                         <img class="logo-img logo-img-active" style="margin-top: -20%;"
-                            src="{{ url('https://backend.ala-group.id/ala-backend/public/uploads/2022/09/21/ALA/produk/logoonly~220921034543.png') }}"
-                            alt="Logo">
+                            src="{{ url('https://backend.ala-group.id/assets/images/logoonly.png') }}" alt="Logo"
+                            style="height: auto; width: auto; max-width: 300px; max-height: 300px;">
                     </a>
                 </div>
                 <!-- End Logo -->

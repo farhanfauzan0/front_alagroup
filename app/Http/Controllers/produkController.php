@@ -1,10 +1,11 @@
 <?php
-
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\M_Produk;
 use App\Models\M_Profil;
+use DB;
+// use Illuminate\Support\Facades\DB;
 
 class produkController extends Controller
 {

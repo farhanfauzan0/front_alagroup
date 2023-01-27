@@ -5,6 +5,7 @@
 
 <body>
     @include('layout.navbar')
+    <link rel="icon" type="image/png" href="{{ url('https://backend.ala-group.id/assets/images/logoonly.png') }}" />
     <title>Halaman Utama</title>
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
@@ -29,60 +30,53 @@
                 <h2>Produk</h2>
             </div>
         </div>
-        <!--// end row -->
 
-        @foreach ($product as $value)
-            <div class="row margin-b-50">
-                <!-- Our Exceptional Solutions -->
+        <div class="row margin-b-50">
+            @foreach ($product as $value)
                 <div class="col-sm-4 sm-margin-b-50">
                     <div class="margin-b-20">
                         <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
                             <img class="img-responsive"
-                                src="{{ url('https://backend.ala-group.id/ala-backend/public/uploads/2022/09/19/ALA/produk/WhatsApp%20Image%202022-09-15%20at%2014.14.16~220919102253.jpeg') }}"
+                                src="{{ url('https://backend.ala-group.id/assets/images/logoonly.png') }}"
                                 alt="Our Exceptional Solutions Image">
                         </div>
                     </div>
-                    <h3><a href="#">{{ $value->nama }}</a>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor
-                            magna ut
-                            consequat siad esqudiat dolor</p>
+                    <h3><a href="#">{{ $value->nama }}</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor
+                        magna ut
+                        consequat siad esqudiat dolor
+                    </p>
                 </div>
-                <!-- End Our Exceptional Solutions -->
-
-                <!-- Our Exceptional Solutions -->
                 <div class="col-sm-4 sm-margin-b-50">
                     <div class="margin-b-20">
                         <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
                             <img class="img-responsive"
-                                src="{{ url('https://backend.ala-group.id/ala-backend/public/uploads/2022/09/21/ALA/produk/logoonly~220921034543.png') }}">
+                                src="{{ url('https://backend.ala-group.id/assets/images/logoonly.png') }}">
                         </div>
                     </div>
-                    <h4><a href="#">{{ $value->nama }}</a> <span class="text-uppercase margin-l-20">Design</span>
+                    <h4>
+                        <a href="#">{{ $value->nama }}</a> <span class="text-uppercase margin-l-20">Design</span>
                     </h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor
                         magna ut
-                        consequat siad esqudiat dolor</p>
-                    {{-- <a class="link" href="#">Read More</a> --}}
+                        consequat siad esqudiat dolor
+                    </p>
                 </div>
-                <!-- End Our Exceptional Solutions -->
-
-                <!-- Our Exceptional Solutions -->
                 <div class="col-sm-4 sm-margin-b-50">
                     <div class="margin-b-20">
                         <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
                             <img class="img-responsive"
-                                src="{{ url('https://backend.ala-group.id/ala-backend/public/uploads/2022/09/19/ALA/produk/WhatsApp%20Image%202022-09-15%20at%2014.14.16~220919102253.jpeg') }}"
-                                alt="Our Exceptional Solutions Image">
+                                src="{{ url('https://backend.ala-group.id/assets/images/logoonly.png') }}">
                         </div>
                     </div>
-                    <h3><a href="#">{{ $value->nama }}</a>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor
-                            magna ut
-                            consequat siad esqudiat dolor</p>
+                    <h3><a href="#">{{ $value->nama }}</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor
+                        magna ut
+                        consequat siad esqudiat dolor
+                    </p>
                 </div>
-                <!-- End Our Exceptional Solutions -->
-            </div>
-        @endforeach
+            @endforeach
+        </div>
     </div>
 </body>
 

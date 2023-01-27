@@ -23,8 +23,7 @@
     <div class="content container">
         <div class="row">
             <div class="col-xs-6">
-                <img class="footer-logo"
-                    src="{{ url('https://backend.ala-group.id/ala-backend/public/uploads/2022/09/21/ALA/produk/logoonly~220921034543.png') }}"
+                <img class="footer-logo" src="{{ url('https://backend.ala-group.id/assets/images/logoonly.png') }}"
                     alt="Logo">
             </div>
         </div>

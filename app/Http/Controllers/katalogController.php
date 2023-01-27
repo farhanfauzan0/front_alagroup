@@ -10,7 +10,7 @@ class katalogController extends Controller
     function index()
     {
         $profile = M_Profil::select('*')->where('type', '=', 'ala')->get();
-
+        
         return view('katalog.index', ['profile' => $profile[0]]);
         return view('footer.index', ['profile' => $profile[0]]);
     }

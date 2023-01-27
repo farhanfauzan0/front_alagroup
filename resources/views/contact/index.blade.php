@@ -5,6 +5,7 @@
 
 <body>
     @include('layout.navbar')
+    <link rel="icon" type="image/png" href="{{ url('https://backend.ala-group.id/assets/images/logoonly.png') }}" />
     <title>Hubungi Kami</title>
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         <!-- Wrapper for slides -->

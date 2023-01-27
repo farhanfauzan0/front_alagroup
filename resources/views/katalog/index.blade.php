@@ -5,6 +5,7 @@
 
 <body>
     @include('layout.navbar')
+    <link rel="icon" type="image/png" href="{{ url('https://backend.ala-group.id/assets/images/logoonly.png') }}" />
     <title>Katalog</title>
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
@@ -16,10 +17,7 @@
                     <div class="carousel-centered">
                         <div class="margin-b-40">
                             <h1 class="carousel-title"><br>Katalog</h1>
-                            <p>Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua <br /> enim minim
-                                estudiat veniam siad venumus dolore</p>
                         </div>
-                        <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Explore</a>
                     </div>
                 </div>
             </div>
@@ -37,7 +35,8 @@
                             <div class="service-info">
                                 <h3>Art Of Coding</h3>
                                 <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat
-                                    dolor</p>
+                                    dolor
+                                </p>
                             </div>
                             <a href="#" class="content-wrapper-link"></a>
                         </div>
@@ -52,7 +51,8 @@
                             <div class="service-info">
                                 <h3>Responsive Design</h3>
                                 <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat
-                                    dolor</p>
+                                    dolor
+                                </p>
                             </div>
                             <a href="#" class="content-wrapper-link"></a>
                         </div>
@@ -67,7 +67,8 @@
                             <div class="service-info">
                                 <h3>Feature Reach</h3>
                                 <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat
-                                    dolor</p>
+                                    dolor
+                                </p>
                             </div>
                             <a href="#" class="content-wrapper-link"></a>
                         </div>
@@ -86,7 +87,8 @@
                             <div class="service-info">
                                 <h3>Useful Documentation</h3>
                                 <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat
-                                    dolor</p>
+                                    dolor
+                                </p>
                             </div>
                             <a href="#" class="content-wrapper-link"></a>
                         </div>
@@ -101,7 +103,8 @@
                             <div class="service-info">
                                 <h3>Fast Delivery</h3>
                                 <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat
-                                    dolor</p>
+                                    dolor
+                                </p>
                             </div>
                             <a href="#" class="content-wrapper-link"></a>
                         </div>
@@ -116,7 +119,8 @@
                             <div class="service-info">
                                 <h3>Free Plugins</h3>
                                 <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat
-                                    dolor</p>
+                                    dolor
+                                </p>
                             </div>
                             <a href="#" class="content-wrapper-link"></a>
                         </div>
